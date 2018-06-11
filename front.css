@@ -23,16 +23,6 @@ body,html{
 transform: scale(1.5);
 }
 
-#child
-{
-    width : 400px;
-    height:350px;
-    padding:30px;
-   
-
-
-    
-}
 
 #child1 , #child2
 {
@@ -100,6 +90,8 @@ transform: scale(1.2);
     margin-left: 5px;
     
 }
+
+
 
 
 } 
