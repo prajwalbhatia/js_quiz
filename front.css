@@ -59,9 +59,14 @@ transform: scale(1.5);
     #child{
         width : 250px;
         height:350px;
-        margin-left: 15px;
+        margin-left: 35px;
         
     }
+
+    #main
+{
+ margin-left: 35px;
+}
 
     #child1 , #child2
     {
