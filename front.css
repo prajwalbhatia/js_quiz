@@ -1,0 +1,118 @@
+body,html{
+    height: 100%;
+    background-image: url('back.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#container1{
+    height:100%;
+    background-image: url('back2.jpeg');
+}
+#main
+{
+    color : white;
+    font-family: courier;
+    font-size : 10vw;
+}
+
+#startgame:hover , #quitgame:hover
+{
+transform: scale(1.5);
+}
+
+#child
+{
+    width : 400px;
+    height:350px;
+    padding:30px;
+   
+
+
+    
+}
+
+#child1 , #child2
+{
+    margin-left: 15px;
+    width : 300px;
+    height:50px;
+    margin-top:50px;
+    
+    background-color :white;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+
+
+
+.text
+{
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 540px) {
+    #child{
+        width : 250px;
+        height:350px;
+        margin-left: 15px;
+        
+    }
+
+    #child1 , #child2
+    {
+        margin-left: 15px;
+        width : 150px;
+        height:50px;
+        margin-left: 16px;
+        
+    }
+
+    #startgame:hover , #quitgame:hover
+{
+transform: scale(1.2);
+}
+
+#main
+{
+    margin-top : 20%;
+    font-size : 50px;
+}
+
+
+} 
+
+@media only screen and (min-width: 720px) {
+   
+    #child1 , #child2
+{
+    margin-left: 15px;
+    width : 250px;
+    height:50px;
+    margin-left: 5px;
+    
+}
+
+
+} 
+
+@media only screen and (min-width: 960px) {
+  
+    #child1 , #child2
+    {
+        margin-left: 15px;
+        width : 350px;
+        height:50px;
+        margin-left: 0px;
+        
+    }
+}
+
