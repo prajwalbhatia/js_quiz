@@ -23,6 +23,16 @@ body,html{
 transform: scale(1.5);
 }
 
+#child
+{
+    width : 200px;
+    height:350px;
+    padding:30px;
+   
+
+
+    
+}
 
 #child1 , #child2
 {
