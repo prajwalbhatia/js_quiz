@@ -31,10 +31,7 @@
 </div>
 <br/>
 <div class="col-6 offset-4  col-lg-6 offset-lg-6">
-            
-    
      <button id="restartbutton" type="button" class="btn btn-default btn-lg"  onclick="location.reload()" ><i class="fa fa-refresh" style="font-size:30px"></i></button>     
-
 </div>
 
 
@@ -113,13 +110,11 @@
                 selectOption2.classList.add("readonly");
                 selectOption3.classList.add("readonly");
                 selectOption4.classList.add("readonly");
-
                 rbutton.style.display = 'block';
     }
-
             function btnTimer()
             {
-                btn.setAttribute("class" , "btn btn-success btn-lg");
+               btn.setAttribute("class" , "btn btn-success btn-lg");
                btn.innerHTML = "Nice Attempt";
             }
             function btnTimer1()
@@ -132,13 +127,10 @@
             {
                 selectOption1.style.backgroundColor = "transparent";
             }
-
             function backgreen1()
             {
                 selectOption1.style.backgroundColor = "green";
             }
-
-           
             function backred1()
             {
                 selectOption1.style.backgroundColor = "red";
@@ -151,8 +143,6 @@
             {
                 selectOption2.style.backgroundColor = "green";
             }
-
-          
             function backred2()
             {
                 selectOption2.style.backgroundColor = "red";
@@ -206,8 +196,7 @@
           selectOption1.style.backgroundColor = "green";
             if(selectOption1.textContent == ques[state].answer )
             {
-                setTimeout(a,1000);
-             function a (){
+               
                state = state + 1;
                correct = correct + 1;
                crt.innerHTML = correct;
@@ -221,10 +210,7 @@
                 selectOption3.innerHTML = ques[state].options[2];
                 selectOption4.innerHTML = ques[state].options[3];
                 console.log(state);
-
-                
-      endGame(); 
-             }
+      endGame();
                
                 
             }
@@ -239,13 +225,10 @@
         
         selectOption2.addEventListener("click" ,  function ()
       {
-        selectOption2.style.backgroundColor = "green";
+      
         if(selectOption2.textContent == ques[state].answer )
             {
-                setTimeout(b,1000);
-
-                function b()
-                {
+               
                 state = state + 1;
                correct = correct + 1;
                crt.innerHTML = correct;
@@ -260,7 +243,7 @@
                 selectOption4.innerHTML = ques[state].options[3];
                
       endGame();
-                }
+                
             }
             else
             {
@@ -273,13 +256,10 @@
        
         selectOption3.addEventListener("click" ,  function ()
       {
-        selectOption3.style.backgroundColor = "green";
+       
         if(selectOption3.textContent == ques[state].answer )
             {
-                setTimeout(c,1000);
-
-                function c()
-                {
+               
                 state = state + 1;
                correct = correct + 1;
                crt.innerHTML = correct;
@@ -294,8 +274,6 @@
                 selectOption4.innerHTML = ques[state].options[3];
                 console.log(state);
       endGame();
-
-                }
                 
             }
             else
@@ -310,12 +288,10 @@
        
         selectOption4.addEventListener("click" , function ()
       {
-        selectOption4.style.backgroundColor = "green";
+       
         if(selectOption4.textContent == ques[state].answer )
             {
-                setTimeout(d,1000);
-
-                function d(){
+               
                 state = state + 1;
                correct = correct + 1;
                crt.innerHTML = correct;
@@ -330,7 +306,6 @@
                 selectOption4.innerHTML = ques[state].options[3];
                 console.log(state);
        endGame();
-                }
                 
             }
             else
